@@ -1,0 +1,17 @@
+﻿<Page x:Class="Project.HelloPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Project"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HelloPage" Background="Bisque">
+    <Grid>
+        <TextBlock Text="Прокат авто" HorizontalAlignment="Center" VerticalAlignment="Top"  FontSize="72" FontFamily="Haettenschweiler" FontStyle="Italic" TextDecorations="Underline"  />
+        <Button Content="Клиент" x:Name="ToClient" Click="ToClient_Click"   HorizontalAlignment="Center" VerticalAlignment="Center"  Height="100" Width="179" FontSize="18" Background="BlanchedAlmond"/>
+        <Button Content="Авто" x:Name="ToAuto" Click="ToAuto_Click"    HorizontalAlignment="Left" VerticalAlignment="Center" Height="100" Width="179" FontSize="18" Background="BlanchedAlmond"/>
+        <Button Content="Прокат" x:Name="ToProcat" Click="ToProcat_Click"   HorizontalAlignment="Right" VerticalAlignment="Center"  Height="100" Width="180" FontSize="18" Background="BlanchedAlmond"/>
+        <Image Source="car1.jpg" Width="280" HorizontalAlignment="Center" VerticalAlignment="Bottom"  />
+    </Grid>
+</Page>
